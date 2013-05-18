@@ -1,0 +1,19 @@
+{
+  "name": "npm-package-latest",
+  "description": "Obtains the npm package metadata for the latest version of a package",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/curious-attempt-bunny/npm-package-latest.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "request": "~2.21.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.3",
+    "tape": "~1.0.2"
+  }
+}
